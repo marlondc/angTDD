@@ -1,0 +1,28 @@
+{
+  "name": "tdd_ang",
+  "version": "1.0.0",
+  "description": "angular news app tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd app && ../node_modules/.bin/http-server",
+    "webdriver-manager": "./node_modules/.bin/webdriver-manager",
+    "protractor": "./node_modules/.bin/protractor"
+  },
+  "keywords": [
+    "angular",
+    "tdd"
+  ],
+  "author": "marlon",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "protractor": "^4.0.3",
+    "protractor-http-mock": "^0.9.0"
+  }
+}
